@@ -7,3 +7,4 @@ The sixth script displays current directory contents, in long format, with user 
 The sevent script creates a new directory in the tmp directory
 The eight script moves a file from /tmp/ to /tmp/my_first_directory
 The ninth script deletes the file moved in the eight script
+The tenth script deletes my_first_directory
