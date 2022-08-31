@@ -15,3 +15,4 @@ The fourteenth scritpt creates a symbolic link to a file
 The fifteenth script copies html files from the current directory to the parent directory, but only copies newer or updated files.
 The sixteenth script moves all files beginning with an upper case letter to the specified directory
 The seventeenth script deletes all files ending with ~
+The eighteenth script creates three new directories in the current directory
