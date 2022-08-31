@@ -16,4 +16,5 @@ The fifteenth script copies html files from the current directory to the parent 
 The sixteenth script moves all files beginning with an upper case letter to the specified directory
 The seventeenth script deletes all files ending with ~
 The eighteenth script creates three new directories in the current directory
-The nineteenth directory lists all files and directories(ending it with a slash) in alpha order, seperated by commas
+The nineteenth script lists all files and directories(ending it with a slash) in alpha order, seperated by commas
+The file can be used with the command 'file' to detect 'School' date files
