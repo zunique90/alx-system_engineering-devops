@@ -11,3 +11,4 @@ The tenth script deletes my_first_directory
 The eleventh script changes the working directory to the previous one
 The twelfth script list all files in the current, parent and boot directory, plus hidden files, in long format
 The thirteenth script displays the type of file being called
+The fourteenth scritpt creates a symbolic link to a file
