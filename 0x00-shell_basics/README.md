@@ -8,3 +8,4 @@ The sevent script creates a new directory in the tmp directory
 The eight script moves a file from /tmp/ to /tmp/my_first_directory
 The ninth script deletes the file moved in the eight script
 The tenth script deletes my_first_directory
+The eleventh script changes the working directory to the previous one
