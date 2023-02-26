@@ -1,0 +1,1 @@
+This project is all about developing web infrastructure. Files in this directory contains links to whiteboard diagrams starting with a simple LAMP model and ending with a fully distributed, monitored, and secured system
