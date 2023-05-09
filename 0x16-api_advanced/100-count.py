@@ -4,10 +4,8 @@
 import requests
 
 
-def recurse(subreddit, hot_list=[], after=""):
-    """
-    returns a list of titles of all hot articles for a given subreddit
-    """
+def count_words(subreddit, word_list, hot_list=[], after=""):
+    """prints a sorted count of given keywords"""
     url = ("https://www.reddit.com/r/{}/hot.json".format(subreddit))
     headers = {"User-Agent": "Mozilla/5.0"}
     params = {"t": all, "after": after}
@@ -21,5 +19,5 @@ def recurse(subreddit, hot_list=[], after=""):
         hot_list.append(hot["data"]["title"])
     after = data.get("data").get("after")
     if after:
-        recurse(subreddit, hot_list, after)
+        count_words(subreddit, word_list, hot_list, after)
     return hot_list
